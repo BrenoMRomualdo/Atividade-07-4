@@ -16,10 +16,10 @@ public class EX1{
         return MarchaDoCarro;
     }
 
-    public void Mensagem1(){
+    public void Mensagemum(){
         System.out.printf("Você %s a seta do carro!\n", this.SetaDoCarro);
     }
-    public void Mensagem2(){
-        System.out.printf("você mudou para a marcha %s\n", this.MarchaDoCarro);
+    public void Mensagemdois(){
+        System.out.printf("você mudou para a marcha %s\n", getMudarMarchaCarro());
     }
 }
